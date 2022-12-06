@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background: #82ccdd;
+}
+
+ h1{
+    background-color: #3c6382;
+    margin-top: 40px;
+    width: 400px;
+    /* font-size: 50px; */
+    font-family: "b yekan";
+    border-radius :0 30px 0 30px;
+}
+
+#badycal{
+    font-family:"Comic Sans MS";
+    margin: 0 auto;
+    width: 400px;
+    background-color:#7e828a;
+    box-shadow: 10px 10px 10px #383535c9;
+    border-radius: 22px;
+}
+table , td {
+    align-content : center;
+    margin: 0 auto;
+}
+#dispaly{
+    border-radius: 13px;
+    border: 0;
+    float: left;
+    font-size: 54px;
+}
+
+#dispaly:focus-visible {
+    outline: 0px;
+}
+
+input[type=reset]
+{
+    height: 253px;
+    width: 59px;
+    margin: 2px;
+    background-color:#f08f2f;
+    padding: 13px 19px;
+    font-size: 18px;
+    border-radius: 13px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 1px 7px 5px #3835357a;
+    color: #fff;
+
+}
+
+#key{
+    padding: 3px;
+    
+}
+input[type=button]
+    {
+        padding: 16px 33px;
+        font-size: 18px;
+        margin: 3px;
+        width: 62px;
+        border-radius: 13px;
+        cursor: pointer;
+        border: 0;
+        box-shadow: 1px 7px 5px #3835357a;
+        background-color:whitesmoke;
+        text-align: center;
+    }
+
+input[type=reset]:hover ,input[type=button]:hover{
+        background:#aba68b;
+}
+#div ,#neg ,#paz , #result ,#zarb {
+    color: #fff;
+	background:#d97261;
+}
+#div:hover ,#neg:hover ,#paz:hover , #result:hover ,#zarb:hover{
+    background:#6c3a58;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa"  >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylecal.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+   
+
+    <title>calculator|ماشين حساب</title>
+</head>
+
+<body onload="key()" >
+    <!-- تيتر ماشين حساب -->
+    <div class="container">
+        <div class="row  justify-content-center p-5" id="TOP">
+            <h1 class=" col-12 col-lg-4 col-md-7 text-center text-white  p-4">ماشين حساب</h1>
+        </div>
+    </div>
+
+        <!-- ماشين حساب -->
+    <div class="container">
+        <form>
+            <div class="row justify-content-center p-4" id="badycal">
+    <!-- صفحه نمايش-رديف اول جدول -->
+                <input class="p-4  my-3" type="text" placeholder="000" id="dispaly"/> 
+                <table style=" border: 1px; width: 100;" class="keybord">
+                
+                <!-- دكمه ها- رديف دوم  -->
+                    <tr>
+                        <!-- كليدها -->
+                        <td>
+                                <div >
+                                    <table>
+                                        <tr>
+                                            <td><input name="button" type="button" value="1" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="2" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="3" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="/" class="btn btn-lg btnNum operator  m-1" id="div" ></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input name="button" type="button" value="4" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="5" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="6" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="-" class="btn btn-lg btnNum operator  m-1" id="neg" ></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input name="button" type="button" value="8" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="7" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="9" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="+" class="btn btn-lg btnNum operator  m-1" id="paz" ></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input name="button" type="button" value="." class="btn btn-lg btnNum  m-1" id="point" ></td>
+                                            <td><input name="button" type="button" value="0" class="btn btn-lg btnNum  m-1" ></td>
+                                            <td><input name="button" type="button" value="=" class="btn btn-lg btnNum eval  m-1" id="result" ></td>
+                                            <td><input name="button" type="button" value="*" class="btn btn-lg btnNum operator  m-1" id="zarb" ></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                        </td>
+                        <!-- كليد سي -->
+                        <td><input type="reset" name="button" value="C" class="btnNum" id="btnClear" ></td>
+
+                    </tr>
+
+
+                </table>
+                
+            
+
+
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="cal.js"></script>
+
+</body>
